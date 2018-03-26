@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inicio</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ 	<script src="js/bootstrap.min.js"></script>
+</head>
+<body style="overflow-x:hidden">
+	<!--Navbar-->
+	<nav class="navbar navbar-inverse navbar-fixed-top" style="margin-bottom: 0px;">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	    	<img class="img-responsive navbar-brand" src="img/ps2.png" alt="logo"> 
+	    </div>
+	    <ul class="nav navbar-nav">
+	      <li class="active"><a href="#">Home</a></li>
+	      <li>
+	      	<a class="dropdown-toggle" type="button" data-toggle="dropdown">Paginas<span class="caret"></span></a>
+			<ul class="dropdown-menu">
+			    <li><a href="#">Formulario</a></li>
+			    <li><a href="#">Tabla</a></li>
+			</ul>
+	      </li>
+	    </ul>
+	    <form class="navbar-form navbar-right" action="/action_page.php">
+	      <div class="form-group">
+	        <input type="text" class="form-control" placeholder="Buscar..." name="search">
+	      </div>
+	      <button type="submit" class="btn btn-default">Buscar</button>
+	    </form>
+	  </div>
+	</nav>
+
+
+	<!--Cuerpo-->
+	<div style="background-image: url(img/dmc3.jpg); background-repeat: no-repeat; background-size: 100%; width: 100%; height: 665px; position: relative;">
+		<div style="background-color: rgba(0, 0, 0, 0.8); position: absolute; width: 700px; height: 125.5px; top: 80%; right: 300px; " >
+			<div class="col-sm-8" style="color: white; margin-top: 2em; text-align: justify;">
+				<p> La furia demoníaca del hijo de Sparda está aquí, así que sigue al joven Dante a través de una cruzada especial contra su hermano gemelo y descubre el poder del hombre que hizo llorar al Diablo.</p>
+			</div>
+			<div class="col-sm-4">
+				<button type="button" class="btn btn-primary" style="margin-top: 3em; margin-left: 2em;">CONOCE MAS</button>
+			</div>
+			
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6">
+		 <img src="img/ps2.jpg" alt="ps2" style="margin-top: 4em; margin-left: 10em; margin-bottom: 2em;"> 
+		</div>
+		 <div class="col-sm-6" style="margin-top: 4em;">
+		 	<h2 class="text-primary" style="font-family: Timew New Roman"><i>Vive Más en Estado Play™</i></h2>
+		 	<h1>PlayStation®2</h1>
+		 	<p>Conoce los paquetes disponibles y encuentra la PS4™ 
+		 	que estás buscando.</p>
+		 	<button type="button" class="btn btn-primary" style="margin-top: 2em;">CONOCE LOS PAQUETES</button>
+		 </div>
+	</div>
+
+	<!--footer-->
+	<div style="background-color: #2E2E2E; position: absolute; width: 100%; height: 200px; padding: 1em;" >
+		<div>
+			<h1 style="color: white;">Acerca de nosotros</h1>
+			<img class="img-responsive navbar-brand col-sm-1" src="img/ps2.png" alt="logo">
+			<div style="margin-top: 1.8em;">
+			<a class="col-sm-1" href="">Soporte</a>
+			<a class="col-sm-2" href="">Acerca de nosotros</a>
+			<a class="col-sm-2" href="">Términos del servicio</a>
+			<a class="col-sm-2" href="">Política de privacidad</a>
+			</div>
+
+		</div>
+		
+	</div>
+</body>
+</html>
